@@ -3,7 +3,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from collections import Counter
-import re
 from deep_translator import GoogleTranslator
 import pickle
 
