@@ -18,7 +18,7 @@ try:
     with open('MachineLearning.txt', 'r') as file:
         text = file.read().replace('\n', '')
 except FileNotFoundError:
-    print("Файл не найден. Пожалуйста, проверьте путь к файлу.")
+    print("Файл не найден")
     exit()
 
 words = word_tokenize(text)
