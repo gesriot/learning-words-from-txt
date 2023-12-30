@@ -7,10 +7,10 @@ import re
 from deep_translator import GoogleTranslator
 import pickle
 
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('stopwords')
+nltk.download('punkt')  # токенизатор предложений
+nltk.download('averaged_perceptron_tagger')  # используется для частеречной разметки
+nltk.download('wordnet')  # база данных лексических отношений англ.языка
+nltk.download('stopwords')  # набор стоп-слов для нескольких языков
 stop_words = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
